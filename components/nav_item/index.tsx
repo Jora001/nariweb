@@ -4,13 +4,13 @@ import React from "react";
 interface INavItemProps {
   label: string;
   href: string;
+  onClick?: () => void; // ✅ Ավելացվել է onClick
 }
 
-function NavItem({ ...props }: INavItemProps) {
-  const { label, href } = props;
+function NavItem({ label, href, onClick }: INavItemProps) {
   return (
-    <Link href={href}>
-      <button>{label}</button>
+    <Link href={href} onClick={onClick} className="hover:text-blue-600">
+      {label}
     </Link>
   );
 }

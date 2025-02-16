@@ -1,22 +1,19 @@
 export const NAVIGATION = [
   {
-    label: "Իմ մասին",
+    label: "Մեր Մասին",
     href: "/about",
   },
+ 
   {
-    label: "Թրեյնինգներ",
-    href: "/trainings",
-  },
-  {
-    label: "1o1 հանդիպում",
+    label: "Դասընթացներ",
     href: "/meeting",
   },
   {
-    label: "Digital Experts Mastermind",
+    label: "Մասնագետներ",
     href: "/digital_experts_mastermind",
   },
   {
-    label: "Բլոգ",
+    label: "Q&A",
     href: "/blog",
   },
   {

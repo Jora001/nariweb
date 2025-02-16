@@ -7,8 +7,9 @@ export default function Logo() {
       <Image
         src="/assets/images/logo.png"
         alt="logo"
-        width={200.8}
+        width={150.8}
         height={64}
+        
       />
     </Link>
   );

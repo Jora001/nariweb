@@ -19,3 +19,6 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+.clip-shape {
+  clip-path: polygon(0 0, 80% 0%, 100% 20%, 0% 70%);
+}
